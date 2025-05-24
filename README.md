@@ -18,9 +18,9 @@ Some cool things about the data:
 
 # 🚀 Project Roadmap
 Here's my game plan for conquering this project:
-1. Week 1: Data Exploration (Currently here!)
+1. Week 1: Data Exploration 
 2. Week 2: Data Preprocessing
-3. Week 3: Model Building
+3. Week 3: Model Building (Currently here!)
 4. Week 4: Model Optimization
 5. Week 5: Deployment
 
