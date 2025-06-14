@@ -13,9 +13,8 @@ from sklearn.ensemble import GradientBoostingClassifier
 import warnings
 warnings.filterwarnings('ignore')
 
-# ============================================================================
-# PAGE CONFIGURATION
-# ============================================================================
+
+# Page Config
 
 st.set_page_config(
     page_title="Obese.",
@@ -24,9 +23,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# ============================================================================
-# CUSTOM CSS STYLING - GLASSMORPHISM THEME
-# ============================================================================
+# CSS
 
 st.markdown("""
 <style>
@@ -503,9 +500,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# ============================================================================
-# MODEL LOADING FUNCTIONS
-# ============================================================================
+# Load Model
 
 @st.cache_resource
 def load_model_components():
@@ -683,9 +678,7 @@ def get_health_recommendation(prediction, bmi_category):
     
     return recommendations.get(prediction, recommendations['Normal_Weight'])
 
-# ============================================================================
-# MAIN APPLICATION
-# ============================================================================
+# Main App
 
 def main():
     # Header
