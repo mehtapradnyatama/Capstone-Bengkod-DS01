@@ -21,8 +21,8 @@ Here's my game plan for conquering this project:
 1. Week 1: Data Exploration 
 2. Week 2: Data Preprocessing
 3. Week 3: Model Building 
-4. Week 4: Model Optimization (Currently here!)
-5. Week 5: Deployment
+4. Week 4: Model Optimization
+5. Week 5: Deployment (Currently here!)
 
 # 🌟 Progress Updates
 I'll be updating this repo weekly with new findings and code improvements. Check back often to see how things are evolving!
