@@ -560,9 +560,7 @@ def load_model_components():
         st.error(f"Error loading model components: {str(e)}")
         return None
 
-# ============================================================================
-# UTILITY FUNCTIONS
-# ============================================================================
+# Funtions
 
 def calculate_bmi(weight, height):
     """Calculate BMI and return category"""
